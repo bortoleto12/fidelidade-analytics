@@ -10,14 +10,14 @@ respondendo às perguntas que um time de BI de fidelidade enfrenta no dia a dia:
 ![HTML](https://img.shields.io/badge/dashboard-HTML%20interativo-2a78d6?logo=html5&logoColor=white)
 ![License](https://img.shields.io/badge/licença-MIT-green)
 
-> ⚠️ **Todos os dados são sintéticos**, gerados por [`src/gerar_dados.py`](src/gerar_dados.py) com padrões realistas
+>  **Todos os dados são sintéticos**, gerados por [`src/gerar_dados.py`](src/gerar_dados.py) com padrões realistas
 > (sazonalidade, churn, campanhas com grupo de controle e anéis de fraude). Nenhum dado real de empresa ou cliente foi usado.
 
 🔗 **[Abrir o dashboard interativo](https://bortoleto12.github.io/fidelidade-analytics/)** · 📓 **[Ver o notebook com a análise completa](notebooks/analise_programa_fidelidade.ipynb)**
 
 ---
 
-## 🎯 Principais resultados
+## Principais resultados
 
 | Pergunta | Resposta |
 |---|---|
@@ -55,7 +55,7 @@ sem servidor e sem instalar nada. Tem cinco abas (Visão geral, Clientes RFM, Re
 
 > Também há uma versão em **Streamlit** (`app/app.py`) para quem quiser explorar os dados com Python rodando localmente.
 
-## 🧱 Arquitetura
+## Arquitetura
 
 ```mermaid
 flowchart LR
@@ -76,7 +76,7 @@ flowchart LR
 | [`sql/04_campanhas.sql`](sql/04_campanhas.sql) | **Teste A/B**: conversão tratamento x controle, uplift, **teste z**, GMV incremental, ROI |
 | [`sql/05_antifraude.sql`](sql/05_antifraude.sql) | Score de risco com 6 regras explicáveis (v1 x v2) |
 
-## 📦 O modelo de dados
+## O modelo de dados
 
 ```
 clientes ──< transacoes >── parceiros
@@ -87,7 +87,7 @@ clientes ──< transacoes >── parceiros
 
 ~20 mil clientes · ~300 mil transações · 10 parceiros · 8 campanhas · ~16 mil resgates · 2024–2025
 
-## 🚀 Como rodar
+## Como rodar
 
 ```bash
 git clone https://github.com/bortoleto12/fidelidade-analytics.git
@@ -102,7 +102,7 @@ streamlit run app/app.py       # (opcional) versão Streamlit
 jupyter notebook notebooks/    # (opcional) explora a análise
 ```
 
-## 💡 Decisões que valem destacar
+## Decisões que valem destacar
 
 - **Grupo de controle em toda campanha.** Sem ele, o "resultado" da Black Friday incluiria quem compraria de qualquer jeito.
   O controle mostrou que ~45% do público converteria sem a oferta.
@@ -112,7 +112,7 @@ jupyter notebook notebooks/    # (opcional) explora a análise
 - **Falsos positivos realistas.** Famílias que dividem um celular e totens de autoatendimento em loja foram simulados
   de propósito, para garantir que as regras não punem clientes legítimos.
 
-## 🔭 Próximos passos
+## Próximos passos
 
 - Modelo de propensão a churn para antecipar o segmento "Em risco"
 - CLV (valor do tempo de vida) por canal de aquisição
