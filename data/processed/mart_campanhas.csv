@@ -1,0 +1,9 @@
+id_campanha,nome_campanha,tipo,data_inicio,data_fim,n_trat,n_ctrl,conversao_tratamento,conversao_controle,uplift_pp,uplift_relativo,z_score,gmv_por_cliente_trat,gmv_por_cliente_ctrl,gmv_incremental,custo_campanha,roi,p_valor,significativo_95
+1,Pontos em Dobro – Supermercado,pontos_em_dobro,2024-03-01,2024-03-31,801,189,0.4532,0.3333,0.1199,0.3596,2.99,134.96,113.22,17416.8,1174.46,1.97,0.0028,True
+2,Dia das Mães – Moda,pontos_em_dobro,2024-04-25,2024-05-12,1259,304,0.1422,0.0855,0.0567,0.6624,2.63,28.46,14.23,17917.98,687.53,4.21,0.0085,True
+3,Abasteça e Ganhe,bonus_fixo,2024-07-01,2024-07-31,1842,461,0.1824,0.1497,0.0327,0.2187,1.65,55.37,41.34,25846.36,1002.2,4.16,0.0989,False
+4,Black Friday Turbo,pontos_em_triplo,2024-11-20,2024-12-02,4634,1200,0.7063,0.4708,0.2355,0.5001,15.32,393.34,221.47,796437.92,45432.68,2.51,0.0,True
+5,Volta às Aulas – Livraria,pontos_em_dobro,2025-01-20,2025-02-15,3236,809,0.0572,0.0457,0.0114,0.25,1.28,5.73,3.89,5942.94,758.21,0.57,0.2005,False
+6,Saúde em Dia – Farmácia,pontos_em_dobro,2025-05-01,2025-05-31,3956,985,0.2495,0.1716,0.0779,0.4542,5.17,25.04,16.62,33314.5,1459.08,3.57,0.0,True
+7,Reativação – Sentimos sua falta,reativacao,2025-08-01,2025-08-31,3434,904,0.1456,0.021,0.1246,5.9276,10.27,33.31,5.48,95562.23,2138.93,7.94,0.0,True
+8,Black Friday Turbo 2025,pontos_em_triplo,2025-11-19,2025-12-01,8478,2161,0.6689,0.4424,0.2265,0.512,19.4,348.86,194.62,1307629.63,73751.22,2.55,0.0,True

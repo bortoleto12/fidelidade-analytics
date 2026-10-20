@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dados brutos em CSV são regenerados pelo script (os .parquet ficam versionados)
+data/raw/*.csv
+
+# Banco local e arquivos do sistema
+*.duckdb
+.DS_Store
+Thumbs.db
