@@ -36,7 +36,7 @@ respondendo às perguntas que um time de BI de fidelidade enfrenta no dia a dia:
   <img src="reports/figures/07_antifraude.png" width="49%">
 </p>
 
-## 🖥️ Dashboard interativo (HTML)
+## Dashboard interativo (HTML)
 
 Um único arquivo HTML ([`docs/index.html`](docs/index.html)), publicado no **GitHub Pages**: abre direto no navegador,
 sem servidor e sem instalar nada. Tem cinco abas (Visão geral, Clientes RFM, Retenção, Campanhas e Antifraude) com:
