@@ -121,4 +121,4 @@ jupyter notebook notebooks/    # (opcional) explora a análise
 ---
 
 **Bianca Bortoleto** · Analista de BI
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL) · [GitHub](https://github.com/bortoleto12)
+[LinkedIn](https://www.linkedin.com/in/bianca-bortoleto-83b620142/) · [GitHub](https://github.com/bortoleto12)
